@@ -1,16 +1,33 @@
-### Hi there 👋
+```Rust
+impl Zarkivy {
+    pub fn about() -> Self {
+        Self {
+            name: "Kevin Zhang",
+            birthday: 1999,
+            email: "zarkivy@outlook.com",
+            school: "Beijing Institute of Technology",
+        }
+    }
+}
 
-<!--
-**zarkivy/zarkivy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+impl Programmer for Zarkivy {
+    fn topics(&self) -> Vec<&'static str> {
+        vec!["OS", "Embeded", "Virtualization"]
+    }
 
-Here are some ideas to get you started:
+    fn major_languages(&self) -> Vec<&'static str> {
+        vec!["Rust", "Python", "C", "C++", "Bash"]
+    }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+impl Cybersecurity for Zarkivy {
+    fn research_topics(&self) -> Vec<&'static str> {
+        vec![
+            "Embeded Security",
+            "Pwn",
+            "Fuzz Testing",
+            "Program Analysis",
+        ]
+    }
+}
+```
