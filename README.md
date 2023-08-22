@@ -15,13 +15,13 @@ impl Programmer for Zarkivy {
         vec!["OS", "Embeded", "Virtualization"]
     }
 
-    fn major_languages(&self) -> Vec<&'static str> {
+    fn languages(&self) -> Vec<&'static str> {
         vec!["Rust", "Python", "C", "C++", "Bash"]
     }
 }
 
 impl Cybersecurity for Zarkivy {
-    fn research_topics(&self) -> Vec<&'static str> {
+    fn topics(&self) -> Vec<&'static str> {
         vec![
             "Embeded Security",
             "Pwn",
