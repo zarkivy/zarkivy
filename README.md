@@ -3,7 +3,7 @@ impl Zarkivy {
     pub fn about() -> Self {
         Self {
             name: "Kevin Zhang",
-            birthday: 1999,
+            birth: 1999,
             email: "zarkivy@outlook.com",
             school: "Beijing Institute of Technology",
         }
