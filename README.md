@@ -1,5 +1,5 @@
 ```Rust
-impl Zarkivy {
+impl ZarKivY {
     pub fn about() -> Self {
         Self {
             name: "Kevin Zhang",
