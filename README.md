@@ -12,22 +12,11 @@ impl Zarkivy {
 
 impl Programmer for Zarkivy {
     fn topics(&self) -> Vec<&'static str> {
-        vec!["OS", "Embeded", "Virtualization"]
+        vec!["IaaS", "Container", "Virtualization", "Kernel"]
     }
 
     fn languages(&self) -> Vec<&'static str> {
-        vec!["Rust", "Python", "C", "C++", "Bash"]
-    }
-}
-
-impl Cybersecurity for Zarkivy {
-    fn topics(&self) -> Vec<&'static str> {
-        vec![
-            "Embeded Security",
-            "Pwn",
-            "Fuzz Testing",
-            "Program Analysis",
-        ]
+        vec!["Rust", "Python", "Golang", "C", "C++", "Bash"]
     }
 }
 ```
